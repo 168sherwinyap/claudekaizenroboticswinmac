@@ -1,0 +1,65 @@
+[14:48:52] unpaired stale bond
+[14:48:52] waiting for pairing mode (A+B, tap reset, hold) ...
+[14:48:55] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:48:57] pair attempt failed: BleakError Could not pair with device: 19
+[14:48:57] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:48:59] pair attempt failed: BleakError Could not pair with device: 19
+[14:48:59] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:00] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:03] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:04] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:06] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:07] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:08] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:10] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:10] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:12] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:12] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:14] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:14] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:16] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:16] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:17] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:18] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:20] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:20] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:22] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:24] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:24] pair attempt failed: BleakError Could not get GATT services: Unreachable
+[14:49:28] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:29] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:30] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:31] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:32] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:33] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:34] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:36] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:41] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:42] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:43] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:44] pair attempt failed: BleakError Could not get GATT services: Unreachable
+[14:49:49] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:50] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:51] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:52] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:52] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:54] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:54] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:49:56] pair attempt failed: BleakError Could not pair with device: 19
+[14:49:56] saw CA:66:5A:0B:95:5F BBC micro:bit [tizez]
+[14:50:01] pair attempt failed: BleakError Could not get GATT services: Unreachable
+[14:50:05] saw CA:66:5A:0B:95:5F BBC micro:bit
+[14:50:06] pair attempt failed: BleakError Could not pair with device: 19
+[14:50:07] saw CA:66:5A:0B:95:5F BBC micro:bit
+[14:50:08] pair attempt failed: BleakError Could not pair with device: 19
+[14:50:09] saw CA:66:5A:0B:95:5F BBC micro:bit
+[14:50:10] pair attempt failed: BleakError Could not pair with device: 19
+[14:50:11] saw CA:66:5A:0B:95:5F BBC micro:bit
+[14:50:11] pair attempt failed: BleakError Could not get GATT services: Unreachable
+[14:50:18] saw CA:66:5A:0B:95:5F BBC micro:bit
+[14:50:19] paired
+[14:50:26] now grabbing the program ...
+[14:50:37] program advertising (attempt 2)
+[14:50:41] program advertising (attempt 3)
+[14:50:43] program advertising (attempt 4)
+[14:50:59] program advertising (attempt 7)

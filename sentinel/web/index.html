@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sonar Sentinel — micro:bit radar</title>
+<style>
+  :root {
+    --bg: #030a06;
+    --panel: #07130c;
+    --panel2: #0a1c12;
+    --line: #123a24;
+    --phos: #57ff9a;
+    --phos-dim: #2a8f5c;
+    --amber: #ffb84d;
+    --red: #ff4d5e;
+    --text: #c9ffdf;
+    --muted: #5f8a72;
+  }
+  * { box-sizing: border-box; }
+  html, body { min-height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(1200px 700px at 58% -10%, #08190f 0%, var(--bg) 62%) fixed;
+    color: var(--text);
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Cascadia Mono", monospace;
+  }
+  body::after {
+    content: "";
+    position: fixed; inset: 0; pointer-events: none; z-index: 9;
+    background: repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0 1px, transparent 1px 3px);
+    opacity: .45;
+  }
+  .crt { max-width: 1500px; margin: 0 auto; padding: 18px 20px 28px; }
+  header {
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    border-bottom: 1px solid var(--line); padding-bottom: 12px;
+  }
+  .brand { display: flex; gap: 13px; align-items: center; }
+  .logo { font-size: 27px; color: var(--phos); text-shadow: 0 0 14px rgba(87,255,154,.75); }
+  h1 { font-size: 19px; letter-spacing: .28em; margin: 0; color: var(--phos); text-shadow: 0 0 10px rgba(87,255,154,.45); }
+  .sub { margin: 3px 0 0; font-size: 11px; color: var(--muted); letter-spacing: .06em; }
+  .conn { display: flex; gap: 10px; align-items: center; }
+  .badge {
+    font-size: 11px; padding: 4px 9px; border-radius: 999px; letter-spacing: .08em;
+    border: 1px solid var(--line); white-space: nowrap;
+  }
+  .badge.demo { color: var(--amber); border-color: #5a3d10; background: #1a1206; }
+  .badge.live { color: var(--phos); border-color: #1d6a43; background: #06170e; text-shadow: 0 0 8px rgba(87,255,154,.5); }
+  .badge.err  { color: var(--red); border-color: #5a1620; background: #1a060a; }
+  button {
+    font: inherit; font-size: 12px; letter-spacing: .06em; padding: 8px 14px;
+    background: #0b2014; color: var(--text); border: 1px solid #1b4a2f;
+    border-radius: 6px; cursor: pointer;
+  }
+  button:hover:not(:disabled) { border-color: var(--phos-dim); color: var(--phos); }
+  button:disabled { opacity: .45; cursor: default; }
+  #connect { background: #0d2a1a; border-color: #217a4a; color: var(--phos); }
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 334px; gap: 18px; margin-top: 18px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+
+  .scope {
+    position: relative; background: #040c08; border: 1px solid #14442a; border-radius: 10px;
+    padding: 10px; box-shadow: 0 0 40px rgba(0,255,120,.05) inset, 0 0 24px rgba(0,0,0,.5);
+  }
+  canvas { width: 100%; display: block; border-radius: 6px; touch-action: none; cursor: crosshair; }
+  .overlay { position: absolute; inset: 10px; pointer-events: none; }
+  .nearest { position: absolute; left: 16px; top: 14px; font-size: 12px; color: var(--phos); text-shadow: 0 0 8px rgba(87,255,154,.5); }
+  .mode-tag {
+    position: absolute; right: 16px; top: 14px; font-size: 10px; letter-spacing: .16em;
+    color: var(--muted); border: 1px solid var(--line); padding: 3px 8px; border-radius: 4px;
+    background: rgba(4,12,8,.7);
+  }
+  .alarm-banner {
+    position: absolute; left: 50%; top: 44%; transform: translate(-50%,-50%) scale(.94);
+    font-size: 29px; letter-spacing: .32em; color: var(--red);
+    text-shadow: 0 0 22px rgba(255,77,94,.8); opacity: 0;
+    transition: opacity .14s ease, transform .14s ease;
+  }
+  .alarm-banner.show { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+
+  .panel { display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    background: linear-gradient(180deg, #07150d, #05100a);
+    border: 1px solid #10301f; border-radius: 9px; padding: 12px 13px;
+  }
+  .card-title {
+    font-size: 10.5px; letter-spacing: .16em; color: var(--muted);
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 9px;
+  }
+  .card-title .kbd { color: #3f6c54; border: 1px solid #1a3f2a; padding: 1px 5px; border-radius: 3px; font-size: 9.5px; }
+  .val { color: var(--amber); }
+  #armSvg { width: 100%; height: 118px; display: block; }
+  #arm { transform-box: view-box; transform-origin: 58px 104px; transform: rotate(-62deg);
+         transition: transform .24s cubic-bezier(.2,1.5,.4,1); }
+  #armSvg.closed #arm { transform: rotate(-2deg); }
+  #armSvg.closed #armLamp { fill: var(--red); filter: drop-shadow(0 0 6px var(--red)); }
+  #armSvg.closed .arm-label { color: var(--red); }
+  .arm-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 10.5px; letter-spacing: .1em; }
+  .arm-state { color: var(--phos); }
+  .arm-state.locked { color: var(--red); text-shadow: 0 0 10px rgba(255,77,94,.6); }
+  .arm-hint { color: var(--muted); }
+
+  input[type=range] { width: 100%; accent-color: var(--amber); }
+  .hint { font-size: 10px; color: var(--muted); margin-top: 7px; line-height: 1.5; }
+  .btn-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 7px; }
+  .btn-row button { padding: 8px 4px; }
+  .mute { display: flex; align-items: center; gap: 7px; font-size: 11px; color: var(--muted); margin-top: 10px; }
+  .mute input { accent-color: var(--phos); }
+  #log {
+    margin: 0; font-size: 10.5px; line-height: 1.55; color: #7fd3a5;
+    max-height: 76px; overflow: hidden; white-space: pre-wrap;
+  }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .stats > div { background: #06110b; border: 1px solid #10301f; border-radius: 8px; padding: 8px 4px; text-align: center; }
+  .stats span { display: block; font-size: 16px; color: var(--phos); }
+  .stats small { font-size: 8.5px; letter-spacing: .12em; color: var(--muted); }
+  .legend { font-size: 10px; color: var(--muted); line-height: 1.6; margin: 2px 0 0; }
+  .legend b { color: #8fceaa; font-weight: normal; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="crt">
+  <header>
+    <div class="brand">
+      <span class="logo">◉</span>
+      <div>
+        <h1>SONAR SENTINEL</h1>
+        <p class="sub">micro:bit v2 · RobotBit 2.2 · HC-SR04 · 2 × servo</p>
+      </div>
+    </div>
+    <div class="conn">
+      <span id="badge" class="badge demo">DEMO</span>
+      <button id="connect">Connect board</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="scope">
+      <canvas id="radar"></canvas>
+      <div class="overlay">
+        <div id="nearest" class="nearest">--</div>
+        <div id="modeTag" class="mode-tag">SWEEP</div>
+        <div id="alarmBanner" class="alarm-banner">INTRUDER</div>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div class="card">
+        <div class="card-title">Guard arm <span class="kbd">S2</span></div>
+        <svg id="armSvg" viewBox="0 0 240 130" aria-label="guard arm">
+          <defs>
+            <linearGradient id="gArm" x1="0" x2="1">
+              <stop offset="0" stop-color="#2a8f5c"/>
+              <stop offset="1" stop-color="#8dffc4"/>
+            </linearGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="2.6" result="b"/>
+              <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          <line x1="18" y1="120" x2="226" y2="120" stroke="#123a24"/>
+          <rect x="48" y="104" width="20" height="16" rx="3" fill="#0e2a1a" stroke="#1d6a43"/>
+          <circle cx="58" cy="104" r="7" fill="#0b2014" stroke="#57ff9a"/>
+          <g id="arm" filter="url(#glow)">
+            <rect x="58" y="96" width="132" height="16" rx="8" fill="url(#gArm)" opacity=".9"/>
+            <rect x="158" y="98" width="26" height="12" rx="4" fill="#031007" opacity=".55"/>
+          </g>
+          <rect x="194" y="88" width="12" height="32" rx="3" fill="#0e2a1a" stroke="#1d6a43"/>
+          <circle id="armLamp" cx="200" cy="82" r="5" fill="#2a8f5c"/>
+          <text x="18" y="18" fill="#3f6c54" font-size="9" letter-spacing="2">GUARD ARM</text>
+        </svg>
+        <div class="arm-foot">
+          <span id="armState" class="arm-state">OPEN · path clear</span>
+          <span class="arm-hint">20° / 160°</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Keep-out zone <span id="keepOutVal" class="val">30 cm</span></div>
+        <input type="range" id="keepout" min="8" max="80" step="1" value="30" aria-label="keep-out distance">
+        <div class="hint">Drag the amber ring on the scope, or move the slider.</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Controls</div>
+        <div class="btn-row">
+          <button id="pause">Pause</button>
+          <button id="center">Center</button>
+          <button id="wiggle">Wiggle</button>
+          <button id="diag">Sensor check</button>
+        </div>
+        <label class="mute"><input type="checkbox" id="sound" checked> Sonar ping on alarm</label>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Event log</div>
+        <pre id="log">booting scope…</pre>
+      </div>
+
+      <div class="stats">
+        <div><span id="sps">0</span><small>SAMPLES/S</small></div>
+        <div><span id="nearestC">--</span><small>NEAREST</small></div>
+        <div><span id="angleR">--</span><small>ANGLE</small></div>
+      </div>
+
+      <p class="legend">
+        Chrome/Edge only. Web Serial needs a secure context, so run <b>run_sentinel.cmd</b>
+        (localhost). <b>Space</b> pause · <b>C</b> center · <b>W</b> wiggle · <b>M</b> mute · <b>D</b> log.
+      </p>
+    </aside>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

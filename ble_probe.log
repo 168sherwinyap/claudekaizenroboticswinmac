@@ -1,0 +1,22 @@
+[13:29:35] scanning for micro:bit ...
+[13:31:21] found BBC micro:bit [tizez] (CA:66:5A:0B:95:5F)
+[13:31:22] connected
+Traceback (most recent call last):
+  File "C:\Users\SureWin\dev\microbit\scripts\ble_probe_connect.py", line 58, in <module>
+    asyncio.run(main())
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\SureWin\dev\microbit\scripts\ble_probe_connect.py", line 48, in main
+    await client.start_notify(NOTIF, on_notify)
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\site-packages\bleak\__init__.py", line 844, in start_notify
+    await self._backend.start_notify(characteristic, wrapped_callback, **kwargs)
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\site-packages\bleak\backends\winrt\client.py", line 981, in start_notify
+    await winrt_char.write_client_characteristic_configuration_descriptor_async(
+OSError: [WinError -2147023673] The operation was canceled by the user

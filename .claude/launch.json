@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sentinel",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8002",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "C:/Users/SureWin/dev/robotics/sentinel/web"
+      ],
+      "port": 8002
+    },
+    {
+      "name": "handlab",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8003",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "C:/Users/SureWin/dev/robotics/handlab/web"
+      ],
+      "port": 8003
+    }
+  ]
+}

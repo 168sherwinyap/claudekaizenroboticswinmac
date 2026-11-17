@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HandLab — micro:bit sensor dashboard + 5-finger hand</title>
+<style>
+  :root {
+    --bg: #070d12;
+    --panel: #0c1520;
+    --panel2: #101d2b;
+    --line: #1a2c3e;
+    --cyan: #53e0ff;
+    --cyan-dim: #2b7fa0;
+    --amber: #ffb84d;
+    --red: #ff5c6c;
+    --text: #d8e6f2;
+    --muted: #6e8ba0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    background: radial-gradient(1200px 700px at 60% -10%, #0b1622 0%, var(--bg) 62%) fixed;
+    color: var(--text);
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Cascadia Mono", monospace;
+  }
+  .wrap { max-width: 1400px; margin: 0 auto; padding: 18px 20px 30px; }
+  header {
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
+    border-bottom: 1px solid var(--line); padding-bottom: 12px; margin-bottom: 16px;
+  }
+  .brand { display: flex; gap: 12px; align-items: center; }
+  .logo { font-size: 26px; color: var(--cyan); text-shadow: 0 0 14px rgba(83,224,255,.7); }
+  h1 { font-size: 19px; letter-spacing: .24em; margin: 0; color: var(--cyan); text-shadow: 0 0 10px rgba(83,224,255,.4); }
+  .sub { margin: 3px 0 0; font-size: 11px; color: var(--muted); letter-spacing: .05em; }
+  .conn { display: flex; gap: 10px; align-items: center; }
+  .badge { font-size: 11px; padding: 4px 9px; border-radius: 999px; letter-spacing: .08em; border: 1px solid var(--line); white-space: nowrap; }
+  .badge.demo { color: var(--amber); border-color: #4a3812; background: #1a1408; }
+  .badge.live { color: var(--cyan); border-color: #17688a; background: #06141c; }
+  .badge.err  { color: var(--red); border-color: #5a1a24; background: #1a070b; }
+  button {
+    font: inherit; font-size: 12px; letter-spacing: .05em; padding: 8px 14px;
+    background: #0d1c29; color: var(--text); border: 1px solid #1c3a52;
+    border-radius: 6px; cursor: pointer;
+  }
+  button:hover:not(:disabled) { border-color: var(--cyan-dim); color: var(--cyan); }
+  button:disabled { opacity: .45; cursor: default; }
+  #connect { background: #0c2a3a; border-color: #1f7fae; color: var(--cyan); }
+
+  .layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 16px; }
+  @media (max-width: 940px) { .layout { grid-template-columns: 1fr; } }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+  .tile { background: linear-gradient(180deg, #0c1826, #08111c); border: 1px solid var(--line); border-radius: 10px; padding: 13px 14px; }
+  .tile h3 { margin: 0 0 2px; font-size: 10.5px; letter-spacing: .16em; color: var(--muted); font-weight: normal; }
+  .tile .val { font-size: 30px; font-weight: 700; color: var(--cyan); margin: 4px 0 2px; text-shadow: 0 0 12px rgba(83,224,255,.4); }
+  .tile .unit { font-size: 12px; color: var(--muted); }
+  .tile canvas { width: 100%; height: 46px; display: block; margin-top: 8px; }
+  #accel3d { height: 170px; }
+  #compass { height: 170px; }
+  .vec { display: flex; gap: 10px; margin-top: 6px; }
+  .vec div { flex: 1; font-size: 12px; color: var(--text); }
+  .vec b { display: block; font-size: 15px; color: var(--cyan); }
+  .vec small { color: var(--muted); }
+
+  .hand { display: flex; flex-direction: column; gap: 12px; }
+  .card { background: linear-gradient(180deg, #0c1826, #08111c); border: 1px solid var(--line); border-radius: 10px; padding: 13px 14px; }
+  .card-title { font-size: 10.5px; letter-spacing: .16em; color: var(--muted); margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+  .finger { display: grid; grid-template-columns: 54px 1fr 34px; gap: 10px; align-items: center; margin-bottom: 9px; }
+  .finger label { font-size: 12px; color: var(--text); letter-spacing: .04em; }
+  .finger .deg { text-align: right; font-size: 12px; color: var(--cyan); }
+  input[type=range] { width: 100%; accent-color: var(--cyan); }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin-top: 7px; }
+  .note { font-size: 10px; color: var(--muted); line-height: 1.55; margin: 4px 0 0; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <span class="logo">◈</span>
+      <div>
+        <h1>HANDLAB</h1>
+        <p class="sub">micro:bit v2 · RobotBit · HC-SR04 · 5 × servo</p>
+      </div>
+    </div>
+    <div class="conn">
+      <span id="badge" class="badge demo">DEMO</span>
+      <button id="connect">Connect board</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="tiles">
+      <div class="tile"><h3>TEMPERATURE</h3><div class="val" id="tTemp">--</div><span class="unit">°C</span><canvas id="spTemp"></canvas></div>
+      <div class="tile"><h3>LIGHT</h3><div class="val" id="tLight">--</div><span class="unit">0–255</span><canvas id="spLight"></canvas></div>
+      <div class="tile"><h3>MICROPHONE</h3><div class="val" id="tMic">--</div><span class="unit">0–255</span><canvas id="spMic"></canvas></div>
+      <div class="tile"><h3>SONAR</h3><div class="val" id="tDist">--</div><span class="unit">cm</span><canvas id="spDist"></canvas></div>
+
+      <div class="tile">
+        <h3>COMPASS</h3>
+        <div class="val" id="tHead">--</div><span class="unit">° heading</span>
+        <div class="vec">
+          <div><small>FIELD</small><b id="tMag">--</b><small>µT</small></div>
+          <div><small>HX</small><b id="tHx">--</b></div>
+          <div><small>HY</small><b id="tHy">--</b></div>
+          <div><small>HZ</small><b id="tHz">--</b></div>
+        </div>
+        <canvas id="compass"></canvas>
+      </div>
+
+      <div class="tile">
+        <h3>ACCELEROMETER</h3>
+        <div class="vec">
+          <div><small>X</small><b id="tAx">--</b></div>
+          <div><small>Y</small><b id="tAy">--</b></div>
+          <div><small>Z</small><b id="tAz">--</b></div>
+        </div>
+        <div class="vec" style="margin-top:8px">
+          <div><small>PITCH</small><b id="tPitch">--</b></div>
+          <div><small>ROLL</small><b id="tRoll">--</b></div>
+        </div>
+        <canvas id="accel3d"></canvas>
+      </div>
+    </section>
+
+    <aside class="hand">
+      <div class="card">
+        <div class="card-title">Hand — 5 servos <span class="unit" id="pcaBadge">S1–S5</span></div>
+        <div class="finger"><label>Thumb</label><input type="range" id="s1" min="0" max="180" value="0"><span class="deg" id="d1">0°</span></div>
+        <div class="finger"><label>Index</label><input type="range" id="s2" min="0" max="180" value="0"><span class="deg" id="d2">0°</span></div>
+        <div class="finger"><label>Middle</label><input type="range" id="s3" min="0" max="180" value="0"><span class="deg" id="d3">0°</span></div>
+        <div class="finger"><label>Ring</label><input type="range" id="s4" min="0" max="180" value="0"><span class="deg" id="d4">0°</span></div>
+        <div class="finger"><label>Pinky</label><input type="range" id="s5" min="0" max="180" value="0"><span class="deg" id="d5">0°</span></div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Controls</div>
+        <div class="row2">
+          <button id="home">Home</button>
+          <button id="northReset">Compass North Reset</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Notes</div>
+        <p class="note">
+          Sliders drive each finger directly (0–180°). <b>Home</b> returns all five to 0°.
+          Heading is read from the raw magnetometer; <b>Compass North Reset</b> re-baselines
+          North to the current orientation.
+        </p>
+      </div>
+    </aside>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

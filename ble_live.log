@@ -1,0 +1,7172 @@
+Keyboard bridge running - press letters or numbers. Ctrl+C to stop.
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit [tizez] (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+command !k
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+command !k
+sent !k
+board: smile
+command !j
+sent !j
+board: frown
+command !r
+sent !r
+board: circle
+key E
+sent E
+board: ACK:E
+command !r
+sent !r
+board: circle
+key E
+sent E
+board: ACK:E
+command !r
+sent !r
+board: circle
+command !k
+sent !k
+board: smile
+command !j
+sent !j
+board: frown
+key A
+sent A
+board: ACK:A
+key B
+sent B
+board: ACK:B
+key E
+sent E
+board: ACK:E
+key A
+sent A
+key D
+sent D
+board: ACK:A
+key D
+sent D
+board: ACK:D
+key T
+sent T
+key H
+board: ACK:D
+sent H
+key E
+sent E
+board: ACK:T
+key L
+sent L
+key E
+key A
+sent E
+board: ACK:H
+sent A
+key R
+sent R
+key N
+sent N
+key I
+board: ACK:E
+sent I
+key N
+sent N
+key G
+sent G
+key S
+board: ACK:L
+sent S
+key T
+sent T
+key O
+sent O
+board: ACK:E
+key M
+board: ACK:A
+sent M
+key Y
+sent Y
+board: ACK:R
+board: ACK:N
+board: ACK:I
+board: ACK:N
+board: ACK:G
+board: ACK:S
+board: ACK:T
+board: ACK:O
+board: ACK:M
+board: ACK:Y
+key O
+sent O
+board: ACK:O
+key H
+sent H
+key O
+sent O
+key W
+board: ACK:H
+sent W
+key D
+sent D
+board: ACK:O
+key O
+sent O
+board: ACK:W
+key I
+sent I
+board: ACK:D
+key R
+sent R
+key U
+sent U
+board: ACK:O
+key N
+sent N
+board: ACK:I
+key T
+sent T
+key H
+sent H
+board: ACK:R
+key I
+sent I
+key S
+sent S
+board: ACK:U
+board: ACK:N
+board: ACK:T
+board: ACK:H
+board: ACK:I
+board: ACK:S
+key W
+sent W
+key H
+sent H
+key E
+sent E
+key N
+sent N
+board: ACK:W
+board: ACK:H
+board: ACK:E
+board: ACK:N
+key I
+sent I
+board: ACK:I
+key A
+sent A
+key M
+sent M
+board: ACK:A
+key O
+sent O
+key U
+sent U
+board: ACK:M
+key T
+sent T
+board: ACK:O
+key O
+sent O
+key F
+sent F
+board: ACK:U
+key C
+sent C
+key L
+sent L
+board: ACK:T
+key A
+sent A
+key U
+board: ACK:O
+sent U
+key D
+sent D
+key E
+board: ACK:F
+sent E
+key C
+sent C
+board: ACK:C
+key O
+sent O
+key D
+sent D
+key E
+board: ACK:L
+sent E
+board: ACK:A
+board: ACK:U
+board: ACK:D
+board: ACK:E
+board: ACK:C
+board: ACK:O
+board: ACK:D
+board: ACK:E
+key S
+sent S
+key U
+sent U
+board: ACK:S
+key M
+sent M
+board: ACK:U
+key M
+sent M
+key A
+sent A
+key R
+sent R
+board: ACK:M
+key I
+sent I
+key Z
+sent Z
+board: ACK:M
+key E
+sent E
+board: ACK:A
+key K
+sent K
+key E
+sent E
+key Y
+sent Y
+board: ACK:R
+board: ACK:I
+key L
+sent L
+key E
+sent E
+board: ACK:Z
+board: ACK:E
+board: ACK:K
+key A
+sent A
+key R
+board: ACK:E
+sent R
+board: ACK:Y
+key N
+sent N
+board: ACK:L
+key I
+sent I
+board: ACK:E
+key N
+sent N
+key G
+sent G
+board: ACK:A
+key S
+sent S
+board: ACK:R
+board: ACK:N
+board: ACK:I
+board: ACK:N
+board: ACK:G
+board: ACK:S
+key S
+sent S
+key O
+sent O
+board: ACK:S
+key T
+sent T
+key H
+sent H
+key A
+sent A
+board: ACK:O
+key T
+sent T
+board: ACK:T
+key T
+sent T
+key H
+sent H
+key I
+sent I
+board: ACK:H
+key S
+sent S
+key W
+sent W
+key O
+board: ACK:A
+sent O
+key N
+sent N
+board: ACK:T
+key T
+sent T
+board: ACK:T
+key H
+sent H
+key A
+sent A
+board: ACK:H
+key P
+sent P
+key P
+sent P
+key E
+sent E
+board: ACK:I
+key N
+sent N
+key A
+board: ACK:S
+sent A
+key G
+sent G
+key A
+sent A
+board: ACK:W
+board: ACK:O
+board: ACK:N
+board: ACK:T
+board: ACK:H
+key A
+sent A
+board: ACK:A
+board: ACK:P
+board: ACK:P
+board: ACK:E
+key T
+board: ACK:N
+sent T
+key A
+sent A
+key K
+sent K
+key E
+sent E
+board: ACK:A
+key T
+sent T
+key O
+sent O
+board: ACK:G
+key O
+sent O
+board: ACK:A
+key L
+sent L
+key O
+sent O
+board: ACK:A
+key N
+sent N
+key N
+sent N
+board: ACK:T
+board: ACK:A
+board: ACK:K
+key G
+sent G
+board: ACK:E
+board: ACK:T
+board: ACK:O
+board: ACK:O
+board: ACK:L
+board: ACK:O
+board: ACK:N
+key U
+sent U
+key P
+sent P
+key D
+board: ACK:N
+sent D
+key A
+sent A
+key T
+sent T
+key E
+sent E
+board: ACK:G
+board: ACK:U
+key M
+sent M
+board: ACK:P
+key Y
+sent Y
+board: ACK:D
+key S
+sent S
+board: ACK:A
+key K
+sent K
+key I
+sent I
+board: ACK:T
+key L
+sent L
+key L
+sent L
+board: ACK:E
+board: ACK:M
+board: ACK:Y
+board: ACK:S
+board: ACK:K
+key S
+sent S
+board: ACK:I
+board: ACK:L
+key I
+sent I
+key N
+sent N
+key T
+sent T
+key O
+board: ACK:L
+sent O
+board: ACK:S
+board: ACK:I
+board: ACK:N
+key W
+sent W
+key I
+sent I
+key T
+sent T
+board: ACK:T
+key H
+sent H
+board: ACK:O
+key T
+sent T
+key H
+sent H
+board: ACK:W
+key E
+sent E
+key S
+sent S
+key E
+sent E
+board: ACK:I
+board: ACK:T
+board: ACK:H
+board: ACK:T
+board: ACK:H
+board: ACK:E
+key W
+sent W
+key H
+sent H
+key E
+sent E
+key N
+sent N
+board: ACK:S
+board: ACK:E
+key I
+sent I
+board: ACK:W
+board: ACK:H
+board: ACK:E
+key D
+sent D
+key O
+sent O
+board: ACK:N
+key A
+sent A
+board: ACK:I
+board: ACK:D
+key N
+sent N
+key E
+sent E
+key W
+sent W
+board: ACK:O
+key P
+sent P
+key R
+sent R
+key O
+board: ACK:A
+sent O
+key G
+sent G
+board: ACK:N
+key R
+sent R
+board: ACK:E
+key M
+sent M
+board: ACK:W
+key A
+sent A
+key M
+board: ACK:P
+sent M
+key W
+sent W
+board: ACK:R
+key I
+sent I
+key T
+sent T
+key H
+sent H
+board: ACK:O
+key B
+sent B
+board: ACK:G
+key L
+sent L
+key E
+sent E
+board: ACK:R
+key A
+sent A
+key N
+sent N
+key D
+sent D
+board: ACK:M
+board: ACK:A
+board: ACK:M
+board: ACK:W
+board: ACK:I
+board: ACK:T
+board: ACK:H
+board: ACK:B
+board: ACK:L
+board: ACK:E
+board: ACK:A
+key M
+sent M
+key I
+sent I
+key C
+sent C
+board: ACK:N
+key R
+sent R
+key O
+sent O
+key B
+board: ACK:D
+sent B
+key I
+sent I
+key T
+board: ACK:M
+sent T
+board: ACK:I
+key A
+sent A
+board: ACK:C
+key N
+sent N
+key D
+sent D
+board: ACK:R
+key R
+sent R
+key O
+sent O
+key B
+sent B
+key O
+board: ACK:O
+sent O
+key T
+sent T
+board: ACK:B
+key B
+board: ACK:I
+sent B
+key I
+sent I
+board: ACK:T
+key T
+sent T
+key A
+sent A
+board: ACK:A
+key G
+sent G
+key A
+sent A
+key I
+sent I
+board: ACK:N
+key N
+sent N
+board: ACK:D
+board: ACK:R
+board: ACK:O
+board: ACK:B
+board: ACK:O
+board: ACK:T
+board: ACK:B
+key N
+sent N
+board: ACK:I
+key A
+sent A
+key M
+sent M
+board: ACK:T
+key E
+sent E
+key T
+board: ACK:A
+sent T
+key H
+sent H
+key E
+sent E
+board: ACK:G
+board: ACK:A
+key S
+sent S
+board: ACK:I
+key K
+sent K
+key I
+sent I
+board: ACK:N
+key L
+sent L
+key L
+sent L
+board: ACK:N
+board: ACK:A
+board: ACK:M
+board: ACK:E
+board: ACK:T
+key R
+sent R
+key E
+sent E
+board: ACK:H
+board: ACK:E
+board: ACK:S
+board: ACK:K
+key K
+sent K
+board: ACK:I
+key A
+sent A
+key I
+sent I
+board: ACK:L
+key Z
+sent Z
+key E
+board: ACK:L
+sent E
+key N
+sent N
+board: ACK:R
+board: ACK:E
+board: ACK:K
+board: ACK:A
+board: ACK:I
+key M
+sent M
+board: ACK:Z
+key I
+sent I
+key C
+sent C
+board: ACK:E
+key R
+sent R
+key O
+sent O
+board: ACK:N
+key B
+board: ACK:M
+sent B
+key I
+sent I
+key T
+sent T
+board: ACK:I
+board: ACK:C
+board: ACK:R
+board: ACK:O
+key R
+sent R
+key O
+sent O
+key B
+sent B
+key O
+board: ACK:B
+sent O
+key T
+sent T
+key I
+sent I
+board: ACK:I
+key C
+sent C
+key S
+sent S
+board: ACK:T
+board: ACK:R
+board: ACK:O
+board: ACK:B
+board: ACK:O
+board: ACK:T
+key A
+sent A
+board: ACK:I
+key S
+sent S
+board: ACK:C
+key D
+sent D
+board: ACK:S
+key F
+sent F
+board: ACK:A
+key G
+sent G
+board: ACK:S
+key H
+sent H
+board: ACK:D
+key Z
+sent Z
+board: ACK:F
+key Z
+sent Z
+key Z
+sent Z
+board: ACK:G
+board: ACK:H
+key Z
+sent Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+key Z
+board: ACK:Z
+sent Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+key Z
+sent Z
+board: ACK:Z
+key Z
+sent Z
+board: ACK:Z
+board: ACK:Z
+board: ACK:Z
+key Q
+sent Q
+board: ACK:Z
+board: ACK:Z
+key Q
+sent Q
+board: ACK:Z
+key Q
+sent Q
+board: ACK:Z
+key Q
+sent Q
+board: ACK:Z
+key Q
+sent Q
+board: ACK:Q
+board: ACK:Q
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key A
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key S
+key S
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key G
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+key G
+key G
+key A
+key Q
+key W
+key S
+key H
+key E
+key R
+key W
+key I
+key N
+key Y
+key A
+key P
+command !r
+key T
+command !k
+command !j
+command !k
+command !j
+key A
+key B
+key C
+key D
+key E
+key F
+key G
+key 1
+key 2
+key 3
+key 4
+key 1
+key S
+key H
+key E
+key R
+key W
+key I
+key N
+key Y
+key A
+key P
+key T
+key A
+key N
+key G
+key I
+key N
+key A
+key M
+key O
+key W
+key H
+key O
+key I
+key S
+key T
+key H
+key E
+key M
+key O
+key S
+key T
+key F
+key A
+key M
+key O
+key U
+key S
+key E
+key O
+key P
+key E
+key R
+key S
+key O
+key N
+key I
+key N
+key T
+key H
+key E
+key W
+key O
+key R
+key L
+key D
+key A
+command !k
+key L
+command !j
+command !k
+command !j
+command !k
+key A
+key B
+key C
+key D
+key E
+key F
+key G
+Connection problem: 
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key S
+key S
+key S
+key S
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key B
+key A
+key E
+key M
+key A
+key I
+key L
+key A
+key R
+key C
+key H
+key I
+key V
+key E
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key M
+key A
+key I
+key L
+key C
+key L
+key A
+key U
+key X
+key H
+key O
+key W
+key D
+key O
+key I
+key L
+key E
+key T
+key C
+key L
+key A
+key U
+key D
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key O
+key C
+key O
+key D
+key E
+key A
+key C
+key C
+key E
+key S
+key S
+key A
+key N
+key D
+key M
+key A
+key N
+key D
+key D
+key O
+key W
+key N
+key L
+key O
+key A
+key D
+key T
+key H
+key E
+key L
+key A
+key R
+key G
+key E
+key F
+key I
+key L
+key E
+key S
+key O
+key N
+key M
+key Y
+key G
+key M
+key A
+key I
+key L
+key G
+key I
+key E
+key V
+key E
+key T
+key H
+key E
+key T
+key H
+key E
+key S
+key T
+key E
+key P
+key B
+key Y
+key S
+key T
+key E
+key P
+key I
+key N
+key S
+key T
+key R
+key U
+key C
+key T
+key I
+key O
+key N
+key S
+key I
+key N
+key C
+key L
+key U
+key D
+key I
+key N
+key G
+key H
+key O
+key W
+key T
+key O
+key P
+key R
+key O
+key M
+key P
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key I
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key A
+key N
+key D
+key W
+key H
+key T
+key H
+key A
+key T
+key L
+key L
+key M
+key M
+key O
+key D
+key E
+key L
+key T
+key O
+key U
+key S
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key O
+key W
+key D
+key O
+key I
+key A
+key S
+key K
+key O
+key U
+key Y
+key O
+key U
+key T
+key O
+key D
+key O
+key W
+key N
+key L
+key O
+key A
+key D
+key A
+key L
+key L
+key G
+key T
+key H
+key E
+key B
+key I
+key G
+key F
+key I
+key L
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key E
+key S
+key I
+key H
+key A
+key E
+key V
+key V
+key E
+key O
+key E
+key O
+key N
+key M
+key Y
+key G
+key M
+key A
+key I
+key L
+key E
+key M
+key A
+key I
+key L
+key S
+key A
+key N
+key D
+key H
+key A
+key V
+key E
+key Y
+key O
+key U
+key D
+key O
+key W
+key N
+key L
+key O
+key A
+key D
+key T
+key H
+key E
+key T
+key E
+key X
+key T
+key S
+key A
+key C
+key C
+key O
+key P
+key M
+key P
+key A
+key N
+key Y
+key I
+key N
+key G
+key T
+key E
+key S
+key T
+key X
+key T
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key N
+key T
+key O
+key A
+key W
+key O
+key R
+key D
+key D
+key O
+key C
+key U
+key M
+key E
+key N
+key T
+key I
+key W
+key O
+key U
+key L
+key D
+key L
+key I
+key K
+key E
+key T
+key H
+key E
+key F
+key I
+key L
+key E
+key S
+key T
+key O
+key B
+key E
+key N
+key E
+key E
+key T
+key L
+key Y
+key A
+key T
+key L
+key Y
+key R
+key O
+key O
+key R
+key G
+key A
+key N
+key I
+key Z
+key E
+key D
+key O
+key N
+key M
+key Y
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key S
+key S
+key A
+key S
+key S
+key I
+key G
+key N
+key E
+key D
+key F
+key O
+key L
+key D
+key E
+key R
+key C
+key A
+key T
+key W
+key I
+key T
+key H
+key M
+key A
+key I
+key N
+key F
+key O
+key L
+key D
+key E
+key R
+key B
+key I
+key E
+key I
+key N
+key G
+key T
+key H
+key E
+key S
+key E
+key N
+key D
+key E
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key A
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+key B
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key A
+key B
+key C
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key A
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+Disconnected; searching again...
+key A
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: [WinError -2147023673] The operation was canceled by the user)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key A
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+key S
+key D
+key F
+key A
+key A
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key A
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+key A
+key A
+key A
+key F
+key A
+key F
+key A
+key F
+key D
+key A
+key F
+key A
+key D
+key A
+key D
+key F
+key F
+key S
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit [tizez] (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Characteristic 6e400002-b5a3-f393-e0a9-e50e24dcca9e was not found!)
+key A
+write failed (Characteristic 6e400003-b5a3-f393-e0a9-e50e24dcca9e was not found!), reconnecting
+key B
+key C
+key D
+key E
+key F
+key G
+key H
+key I
+key J
+key K
+key L
+key M
+key N
+key O
+key P
+Connection problem: 
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key I
+key N
+key I
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key V
+key A
+key I
+key F
+key M
+key E
+key A
+key N
+key I
+key N
+key G
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key L
+key O
+key P
+key M
+key E
+key A
+key N
+key I
+key N
+key G
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key A
+key L
+key I
+key A
+key K
+key O
+key S
+key A
+key S
+key L
+key O
+key P
+key F
+key E
+key S
+key T
+key 0
+key P
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key B
+key A
+key L
+key I
+key T
+key A
+key A
+key N
+key K
+key I
+key T
+key A
+key I
+key F
+key N
+key A
+key K
+key A
+key P
+key A
+key S
+key O
+key K
+key A
+key K
+key O
+key H
+key A
+key D
+key I
+key P
+key A
+key N
+key A
+key G
+key E
+key E
+key M
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key I
+key L
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key J
+key O
+key N
+key A
+key H
+key T
+key H
+key A
+key N
+key R
+key A
+key P
+key U
+key S
+key A
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key E
+key A
+key N
+key I
+key N
+key G
+key N
+key E
+key W
+key B
+key I
+key E
+key S
+key C
+key A
+key N
+key M
+key A
+key K
+key E
+key S
+key S
+key T
+key U
+key F
+key F
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key B
+key U
+key T
+key S
+key L
+key O
+key P
+key P
+key Y
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key M
+key A
+key A
+key A
+key A
+key A
+key A
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key A
+key C
+key K
+key A
+key H
+key A
+key C
+key K
+key A
+key C
+key H
+key E
+key R
+key I
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key A
+key C
+key K
+key A
+key T
+key H
+key O
+key N
+key S
+key C
+key H
+key E
+key U
+key D
+key L
+key E
+key N
+key O
+key D
+key U
+key L
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key G
+key O
+key H
+key I
+key O
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key H
+key A
+key V
+key E
+key A
+key N
+key E
+key W
+key M
+key I
+key C
+key R
+key O
+key B
+key I
+key T
+key V
+key 2
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 2
+key R
+key O
+key B
+key O
+key T
+key C
+key O
+key N
+key N
+key E
+key C
+key T
+key E
+key D
+key T
+key O
+key A
+key K
+key I
+key T
+key T
+key E
+key N
+key B
+key O
+key T
+key R
+key O
+key B
+key O
+key T
+key B
+key I
+key T
+key I
+key I
+key A
+key L
+key S
+key O
+key I
+key A
+key M
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key P
+key L
+key A
+key N
+key N
+key I
+key N
+key G
+key T
+key O
+key A
+key D
+key D
+key A
+key N
+key U
+key L
+key T
+key R
+key A
+key S
+key O
+key N
+key I
+key C
+key S
+key E
+key N
+key S
+key O
+key R
+key T
+key O
+key B
+key E
+key A
+key B
+key L
+key E
+key T
+key O
+key M
+key A
+key K
+key E
+key A
+key G
+key A
+key M
+key E
+key T
+key H
+key A
+key T
+key I
+key S
+key S
+key I
+key M
+key I
+key L
+key A
+key R
+key T
+key O
+key F
+key L
+key A
+key P
+key P
+key Y
+key B
+key I
+key D
+key R
+key D
+key B
+key U
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key O
+key N
+key T
+key R
+key O
+key U
+key P
+key A
+key N
+key D
+key D
+key O
+key W
+key N
+key M
+key O
+key V
+key E
+key M
+key E
+key N
+key T
+key S
+key A
+key R
+key E
+key C
+key O
+key N
+key T
+key R
+key O
+key L
+key L
+key E
+key D
+key B
+key Y
+key P
+key U
+key T
+key T
+key I
+key N
+key G
+key M
+key Y
+key H
+key A
+key N
+key D
+key S
+key O
+key N
+key T
+key O
+key P
+key O
+key F
+key T
+key H
+key E
+key U
+key L
+key T
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key S
+key O
+key N
+key I
+key C
+key S
+key E
+key N
+key S
+key O
+key R
+key 9
+key H
+key C
+key S
+key 3
+key R
+key 0
+key 4
+key 0
+key A
+key N
+key D
+key M
+key O
+key V
+key I
+key N
+key G
+key I
+key T
+key U
+key P
+key A
+key N
+key D
+key D
+key O
+key W
+key N
+key T
+key O
+key C
+key O
+key N
+key T
+key R
+key O
+key L
+key T
+key H
+key E
+key M
+key O
+key V
+key E
+key M
+key E
+key N
+key T
+key O
+key F
+key T
+key H
+key E
+key B
+key I
+key R
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key I
+key V
+key E
+key M
+key E
+key A
+key N
+key I
+key M
+key P
+key L
+key E
+key M
+key E
+key N
+key T
+key A
+key T
+key I
+key O
+key N
+key P
+key L
+key A
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key T
+key H
+key E
+key F
+key L
+key A
+key P
+key P
+key Y
+key B
+key I
+key R
+key D
+key S
+key H
+key O
+key U
+key L
+key D
+key B
+key E
+key O
+key N
+key M
+key Y
+key M
+key O
+key N
+key I
+key T
+key O
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: [WinError -2147023673] The operation was canceled by the user)
+key A
+write failed ([WinError -2147483629] The object has been closed), reconnecting
+key D
+key D
+key M
+key I
+key N
+key R
+key O
+key O
+key R
+key C
+key A
+Disconnected; searching again...
+key H
+key A
+key N
+key G
+key E
+key O
+key N
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+key P
+sent P
+board: ACK:P
+key S
+key E
+sent S
+sent E
+key R
+sent R
+board: ACK:S
+key V
+sent V
+key O
+sent O
+board: ACK:E
+board: ACK:R
+key M
+sent M
+key O
+sent O
+key T
+sent T
+board: ACK:V
+key O
+sent O
+key R
+sent R
+board: ACK:O
+board: ACK:M
+board: ACK:O
+key W
+sent W
+key H
+sent H
+key E
+board: ACK:T
+sent E
+key N
+sent N
+board: ACK:O
+board: ACK:R
+board: ACK:W
+board: ACK:H
+key T
+sent T
+key H
+sent H
+key E
+sent E
+board: ACK:E
+board: ACK:N
+board: ACK:T
+key B
+sent B
+key I
+sent I
+board: ACK:H
+key R
+sent R
+key D
+sent D
+board: ACK:E
+board: ACK:B
+key I
+sent I
+key S
+sent S
+board: ACK:I
+key G
+sent G
+key O
+board: ACK:R
+sent O
+key I
+sent I
+board: ACK:D
+key N
+sent N
+key G
+sent G
+board: ACK:I
+key A
+sent A
+board: ACK:S
+board: ACK:G
+key U
+sent U
+key P
+sent P
+board: ACK:O
+board: ACK:I
+board: ACK:N
+key T
+sent T
+key H
+board: ACK:G
+sent H
+key E
+sent E
+board: ACK:A
+key M
+sent M
+key O
+sent O
+board: ACK:U
+key T
+sent T
+key O
+sent O
+key R
+sent R
+board: ACK:P
+board: ACK:T
+board: ACK:H
+board: ACK:E
+board: ACK:M
+board: ACK:O
+board: ACK:T
+key F
+sent F
+key L
+sent L
+board: ACK:O
+key A
+sent A
+key P
+sent P
+board: ACK:R
+key S
+sent S
+board: ACK:F
+board: ACK:L
+board: ACK:A
+board: ACK:P
+board: ACK:S
+key G
+sent G
+key O
+sent O
+key I
+board: ACK:G
+sent I
+key N
+sent N
+key G
+sent G
+board: ACK:O
+key D
+sent D
+key O
+sent O
+board: ACK:I
+key W
+sent W
+key N
+sent N
+board: ACK:N
+key I
+sent I
+key T
+board: ACK:G
+sent T
+board: ACK:D
+board: ACK:O
+board: ACK:W
+board: ACK:N
+board: ACK:I
+board: ACK:T
+key D
+sent D
+key O
+sent O
+key E
+sent E
+key S
+board: ACK:D
+sent S
+key N
+sent N
+board: ACK:O
+board: ACK:E
+key T
+sent T
+board: ACK:S
+board: ACK:N
+board: ACK:T
+key F
+sent F
+key L
+sent L
+key A
+sent A
+board: ACK:F
+board: ACK:L
+key P
+sent P
+board: ACK:A
+board: ACK:P
+key E
+sent E
+key N
+sent N
+key H
+sent H
+board: ACK:E
+key A
+sent A
+key N
+sent N
+board: ACK:N
+key C
+sent C
+key E
+sent E
+key M
+sent M
+board: ACK:H
+key E
+sent E
+key N
+sent N
+key T
+sent T
+board: ACK:A
+board: ACK:N
+board: ACK:C
+board: ACK:E
+board: ACK:M
+board: ACK:E
+board: ACK:N
+board: ACK:T
+key F
+sent F
+key L
+sent L
+key A
+sent A
+key P
+sent P
+board: ACK:F
+key P
+sent P
+key Y
+board: ACK:L
+sent Y
+board: ACK:A
+key B
+sent B
+key I
+sent I
+key R
+sent R
+board: ACK:P
+board: ACK:P
+board: ACK:Y
+board: ACK:B
+board: ACK:I
+board: ACK:R
+key P
+sent P
+board: ACK:P
+key L
+sent L
+board: ACK:L
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key R
+key U
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key A
+key N
+key Y
+key O
+key U
+key V
+key A
+key L
+key I
+key D
+key A
+key T
+key E
+key I
+key F
+key S
+key E
+key R
+key V
+key O
+key M
+key T
+key H
+key E
+key R
+key E
+key I
+key S
+key A
+key R
+key E
+key E
+key D
+key I
+key A
+key D
+key I
+key N
+key G
+key F
+key R
+key O
+key M
+key T
+key H
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key U
+key L
+key T
+key R
+key A
+key S
+key O
+key N
+key I
+key C
+key S
+key E
+key N
+key S
+key O
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key W
+key O
+key R
+key K
+key I
+key N
+key G
+key N
+key O
+key W
+key B
+key U
+key T
+key D
+key O
+key A
+key D
+key J
+key U
+key S
+key T
+key M
+key E
+key N
+key T
+key S
+key O
+key N
+key I
+key T
+key S
+key U
+key D
+key D
+key E
+key N
+key L
+key Y
+key M
+key O
+key V
+key E
+key S
+key S
+key T
+key R
+key A
+key I
+key G
+key H
+key T
+key U
+key P
+key T
+key H
+key I
+key S
+key I
+key S
+key M
+key A
+key Y
+key B
+key E
+key C
+key B
+key E
+key C
+key A
+key U
+key S
+key E
+key T
+key H
+key E
+key S
+key E
+key N
+key S
+key O
+key R
+key P
+key I
+key C
+key K
+key S
+key U
+key P
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key V
+key E
+key R
+key Y
+key H
+key I
+key G
+key H
+key D
+key I
+key S
+key T
+key A
+key N
+key C
+key E
+key S
+key O
+key M
+key E
+key F
+key O
+key R
+key A
+key V
+key E
+key R
+key Y
+key S
+key H
+key O
+key R
+key T
+key W
+key H
+key I
+key L
+key E
+key 9
+key O
+key R
+key W
+key H
+key E
+key N
+key H
+key A
+key N
+key D
+key S
+key W
+key A
+key S
+key R
+key E
+key M
+key O
+key V
+key E
+key D
+key F
+key R
+key O
+key M
+key T
+key H
+key E
+key L
+key I
+key N
+key E
+key O
+key F
+key T
+key H
+key E
+key S
+key E
+key N
+key S
+key O
+key R
+key 0
+key M
+key A
+key K
+key E
+key A
+key D
+key J
+key U
+key S
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key E
+key N
+key T
+key S
+key T
+key O
+key A
+key V
+key O
+key I
+key D
+key T
+key H
+key I
+key S
+key I
+key S
+key S
+key U
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key P
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key P
+key L
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key O
+key O
+key K
+key S
+key I
+key N
+key I
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key A
+key K
+key E
+key A
+key N
+key E
+key W
+key F
+key O
+key L
+key D
+key E
+key R
+key W
+key I
+key T
+key H
+key A
+key T
+key H
+key E
+key S
+key A
+key M
+key E
+key L
+key O
+key G
+key I
+key C
+key S
+key E
+key T
+key O
+key F
+key O
+key F
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key E
+key Q
+key S
+key E
+key T
+key T
+key M
+key A
+key T
+key E
+key R
+key I
+key A
+key L
+key S
+key A
+key N
+key D
+key S
+key E
+key T
+key T
+key I
+key N
+key G
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key E
+key W
+key G
+key A
+key M
+key E
+key A
+key P
+key P
+key B
+key R
+key O
+key A
+key P
+key P
+key T
+key H
+key A
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key N
+key D
+key A
+key P
+key P
+key S
+key E
+key T
+key T
+key I
+key N
+key G
+key S
+key C
+key A
+key L
+key L
+key E
+key D
+key K
+key A
+key I
+key Z
+key E
+key N
+key P
+key U
+key S
+key H
+key U
+key P
+key C
+key O
+key U
+key N
+key T
+key E
+key R
+key P
+key U
+key T
+key A
+key L
+key L
+key T
+key H
+key E
+key F
+key I
+key L
+key E
+key S
+key I
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key R
+key E
+key A
+key T
+key E
+key D
+key A
+key N
+key D
+key L
+key I
+key N
+key K
+key E
+key I
+key N
+key O
+key N
+key E
+key N
+key E
+key W
+key F
+key O
+key L
+key D
+key E
+key R
+key I
+key S
+key O
+key O
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key O
+key G
+key O
+key G
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key Y
+key O
+key U
+key S
+key T
+key A
+key R
+key T
+key B
+key Y
+key W
+key I
+key T
+key H
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key T
+key H
+key E
+key A
+key P
+key P
+key W
+key H
+key E
+key N
+key T
+key H
+key E
+key A
+key P
+key P
+key S
+key T
+key A
+key R
+key T
+key S
+key I
+key T
+key A
+key S
+key K
+key T
+key H
+key E
+key A
+key P
+key P
+key A
+key S
+key K
+key S
+key Y
+key O
+key U
+key R
+key T
+key A
+key R
+key G
+key E
+key T
+key P
+key U
+key S
+key H
+key U
+key P
+key N
+key U
+key M
+key B
+key E
+key R
+key S
+key A
+key N
+key D
+key S
+key E
+key T
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key T
+key R
+key E
+key G
+key I
+key S
+key T
+key E
+key R
+key S
+key I
+key T
+key H
+key E
+key L
+key P
+key S
+key O
+key Y
+key O
+key U
+key C
+key O
+key U
+key N
+key T
+key T
+key H
+key E
+key N
+key U
+key M
+key B
+key E
+key R
+key O
+key F
+key P
+key S
+key U
+key S
+key H
+key U
+key P
+key S
+key Y
+key U
+key O
+key U
+key V
+key E
+key M
+key A
+key D
+key E
+key 9
+key A
+key N
+key D
+key C
+key O
+key U
+key N
+key T
+key D
+key O
+key S
+key D
+key O
+key W
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key T
+key O
+key Y
+key O
+key U
+key R
+key T
+key A
+key R
+key G
+key E
+key T
+key 0
+key W
+key H
+key E
+key N
+key Y
+key O
+key U
+key H
+key I
+key T
+key Y
+key O
+key R
+key U
+key R
+key T
+key A
+key R
+key G
+key E
+key T
+key T
+key H
+key E
+key A
+key P
+key P
+key C
+key E
+key L
+key E
+key B
+key R
+key A
+key T
+key E
+key S
+key F
+key O
+key R
+key Y
+key O
+key U
+key 9
+key V
+key I
+key S
+key U
+key A
+key L
+key S
+key A
+key N
+key D
+key S
+key O
+key U
+key N
+key D
+key S
+key 0
+key W
+key H
+key I
+key L
+key E
+key P
+key U
+key S
+key H
+key U
+key P
+key I
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key M
+key E
+key A
+key S
+key U
+key R
+key E
+key U
+key S
+key I
+key N
+key G
+key T
+key H
+key E
+key U
+key L
+key T
+key R
+key A
+key S
+key O
+key N
+key I
+key C
+key S
+key E
+key N
+key S
+key O
+key R
+key W
+key H
+key E
+key R
+key E
+key W
+key H
+key E
+key N
+key Y
+key O
+key U
+key A
+key R
+key E
+key 1
+key T
+key O
+key 2
+key I
+key N
+key C
+key H
+key E
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key E
+key A
+key S
+key S
+key T
+key H
+key A
+key N
+key F
+key R
+key O
+key M
+key T
+key H
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 9
+key P
+key L
+key A
+key C
+key E
+key D
+key O
+key N
+key T
+key H
+key E
+key F
+key L
+key O
+key O
+key R
+key N
+key E
+key R
+key P
+key O
+key I
+key N
+key T
+key E
+key D
+key T
+key O
+key A
+key S
+key U
+key S
+key E
+key R
+key S
+key C
+key H
+key E
+key S
+key T
+key 0
+key I
+key T
+key M
+key E
+key A
+key S
+key U
+key R
+key E
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key T
+key H
+key E
+key P
+key U
+key S
+key H
+key U
+key P
+key I
+key S
+key O
+key N
+key T
+key H
+key E
+key D
+key O
+key W
+key N
+key S
+key T
+key A
+key R
+key G
+key E
+key W
+key H
+key E
+key N
+key I
+key T
+key I
+key S
+key A
+key B
+key O
+key V
+key E
+key 5
+key I
+key N
+key C
+key H
+key E
+key S
+key I
+key T
+key S
+key C
+key O
+key U
+key N
+key T
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key 9
+key B
+key U
+key T
+key L
+key E
+key S
+key S
+key T
+key H
+key A
+key N
+key 1
+key 4
+key M
+key E
+key T
+key E
+key R
+key S
+key 0
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 5
+key O
+key N
+key T
+key H
+key E
+key U
+key U
+key P
+key S
+key T
+key A
+key G
+key E
+key 9
+key M
+key A
+key K
+key I
+key N
+key G
+key I
+key T
+key O
+key N
+key E
+key R
+key E
+key P
+key 0
+key 1
+key C
+key O
+key U
+key N
+key T
+key B
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key U
+key R
+key E
+key T
+key O
+key P
+key R
+key O
+key T
+key E
+key C
+key T
+key A
+key G
+key A
+key I
+key N
+key S
+key T
+key S
+key U
+key D
+key D
+key E
+key N
+key J
+key U
+key M
+key P
+key T
+key O
+key A
+key B
+key I
+key G
+key H
+key I
+key G
+key H
+key D
+key I
+key S
+key T
+key A
+key N
+key C
+key E
+key N
+key U
+key M
+key B
+key E
+key R
+key A
+key S
+key I
+key T
+key M
+key A
+key Y
+key B
+key E
+key P
+key I
+key O
+key I
+key P
+key O
+key I
+key N
+key T
+key E
+key D
+key T
+key O
+key T
+key H
+key E
+key C
+key E
+key I
+key L
+key I
+key N
+key G
+key A
+key N
+key D
+key T
+key H
+key E
+key P
+key E
+key R
+key S
+key O
+key N
+key I
+key S
+key O
+key U
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key O
+key L
+key O
+key N
+key G
+key E
+key R
+key O
+key N
+key T
+key H
+key E
+key R
+key A
+key N
+key G
+key E
+key O
+key F
+key T
+key H
+key E
+key S
+key E
+key N
+key S
+key O
+key R
+key P
+key R
+key O
+key C
+key E
+key E
+key D
+key W
+key I
+key T
+key H
+key T
+key H
+key E
+key B
+key U
+key I
+key L
+key D
+key A
+key S
+key K
+key M
+key E
+key T
+key O
+key A
+key N
+key Y
+key T
+key H
+key I
+key N
+key G
+key T
+key O
+key V
+key E
+key R
+key I
+key F
+key Y
+key M
+key A
+key K
+key E
+key S
+key U
+key R
+key E
+key Y
+key O
+key U
+key A
+key R
+key E
+key D
+key O
+key I
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key T
+key H
+key E
+key R
+key I
+key G
+key H
+key T
+key T
+key H
+key I
+key N
+key G
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key D
+key D
+key B
+key E
+key E
+key P
+key S
+key O
+key R
+key S
+key M
+key A
+key L
+key L
+key S
+key O
+key U
+key N
+key D
+key S
+key I
+key F
+key Y
+key O
+key U
+key A
+key R
+key E
+key O
+key N
+key T
+key H
+key E
+key U
+key P
+key S
+key T
+key A
+key G
+key E
+key A
+key N
+key D
+key D
+key O
+key W
+key N
+key S
+key T
+key A
+key G
+key E
+key O
+key F
+key T
+key H
+key E
+key P
+key U
+key S
+key H
+key U
+key P
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key D
+key D
+key V
+key O
+key I
+key C
+key E
+key T
+key H
+key A
+key T
+key C
+key O
+key U
+key N
+key T
+key S
+key A
+key N
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key L
+key S
+key O
+key T
+key E
+key L
+key L
+key S
+key Y
+key O
+key U
+key T
+key H
+key E
+key T
+key A
+key R
+key G
+key E
+key T
+key W
+key H
+key E
+key N
+key Y
+key O
+key U
+key T
+key A
+key R
+key S
+key T
+key A
+key R
+key T
+key A
+key N
+key D
+key W
+key H
+key E
+key N
+key H
+key O
+key W
+key M
+key A
+key N
+key Y
+key Y
+key O
+key U
+key D
+key I
+key D
+key W
+key H
+key E
+key N
+key Y
+key O
+key U
+key F
+key I
+key N
+key I
+key S
+key H
+key A
+key S
+key E
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+Connecting to BBC micro:bit [tizez] (CA:66:5A:0B:95:5F)...
+Connected. Typing now mirrors on the board.
+(could not subscribe to board echoes: Could not start notify on 002B: Unreachable)
+Disconnected; searching again...
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key P
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key D
+key D
+key T
+key H
+key I
+key S
+key T
+key O
+key S
+key K
+key I
+key L
+key L
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key K
+key A
+key I
+key Z
+key K
+key A
+key I
+key Z
+key E
+key K
+key A
+key I
+key Z
+key E
+key N
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key Y
+key O
+key U
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key M
+key I
+key N
+key U
+key T
+key E
+key C
+key L
+key A
+key U
+key D
+key E
+key T
+key U
+key T
+key O
+key R
+key I
+key A
+key L
+key 5
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key H
+key O
+key R
+key T
+key E
+key S
+key T
+key C
+key L
+key A
+key U
+key D
+key E
+key O
+key O
+key C
+key O
+key D
+key E
+key T
+key U
+key O
+key T
+key O
+key R
+key I
+key A
+key L
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key B
+key S
+key I
+key N
+key N
+key B
+key B
+key E
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 8
+key M
+key D
+command !x
+key V
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key I
+key C
+key E
+key M
+key U
+key K
+key H
+key A
+key N
+key G
+key M
+key Y
+key A
+key Y
+key P
+key A
+key N
+key G
+key J
+key O
+key L
+key L
+key I
+key B
+key E
+key E
+key N
+key A
+key T
+key A
+key Y
+key O
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key J
+key O
+key L
+key L
+key I
+key 1
+key H
+key E
+key H
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key W
+key E
+key H
+key A
+key S
+key A
+key M
+key A
+key K
+key A
+key T
+key I
+key M
+key A
+key R
+key V
+key S
+key P
+key E
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key O
+key S
+key T
+key L
+key I
+key K
+key E
+key L
+key Y
+key R
+key C
+key B
+key V
+key C
+key T
+key O
+key W
+key E
+key R
+key E
+key R
+key P
+key E
+key R
+key O
+key D
+key I
+key P
+key A
+key S
+key I
+key L
+key A
+key N
+key A
+key G
+key N
+key A
+key G
+key E
+key M
+key A
+key I
+key L
+key N
+key G
+key D
+key E
+key T
+key A
+key I
+key L
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key L
+key I
+key M
+key B
+key I
+key N
+key G
+key V
+key H
+key E
+key H
+key E
+key H
+key A
+key C
+key K
+key A
+key T
+key H
+key O
+key N
+key C
+key O
+key N
+key T
+key E
+key S
+key T
+key N
+key G
+key A
+key P
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key P
+key B
+key I
+key U
+key I
+key L
+key D
+key I
+key N
+key G
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key O
+key W
+key D
+key O
+key I
+key S
+key H
+key A
+key R
+key E
+key T
+key H
+key I
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key K
+key I
+key L
+key L
+key T
+key O
+key T
+key H
+key E
+key F
+key O
+key L
+key K
+key S
+key K
+key S
+key A
+key T
+key M
+key Y
+key L
+key E
+key C
+key T
+key U
+key R
+key E
+key O
+key N
+key N
+key E
+key X
+key T
+key W
+key E
+key E
+key K
+key I
+key D
+key L
+key I
+key K
+key E
+key T
+key H
+key M
+key E
+key M
+key T
+key O
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key M
+key A
+key K
+key E
+key S
+key T
+key U
+key F
+key F
+key U
+key S
+key I
+key N
+key G
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key M
+key I
+key C
+key R
+key O
+key B
+key I
+key T
+key M
+key R
+key O
+key B
+key O
+key T
+key B
+key I
+key T
+key S
+key E
+key R
+key V
+key O
+key M
+key O
+key T
+key O
+key R
+key S
+key A
+key N
+key D
+key V
+key A
+key R
+key I
+key O
+key U
+key S
+key S
+key E
+key N
+key S
+key O
+key R
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key H
+key O
+key W
+key W
+key D
+key O
+key I
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key V
+key A
+key N
+key D
+key S
+key T
+key I
+key L
+key L
+key B
+key E
+key A
+key B
+key L
+key E
+key T
+key O
+key C
+key O
+key N
+key T
+key I
+key N
+key U
+key E
+key D
+key E
+key V
+key E
+key L
+key O
+key P
+key I
+key N
+key G
+key I
+key T
+key O
+key I
+key N
+key T
+key H
+key E
+key N
+key E
+key X
+key T
+key F
+key E
+key W
+key D
+key A
+key Y
+key S
+key T
+key H
+key E
+key S
+key K
+key I
+key L
+key L
+key M
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key S
+key S
+key S
+key S
+key S
+key S
+key S
+key S
+key S
+key S
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+command !x
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key L
+key A
+key U
+key D
+key E
+key B
+key A
+key C
+key K
+key U
+key P
+key M
+key I
+key C
+key R
+key O
+key B
+key I
+key T
+key S
+key K
+key I
+key L
+key L
+key S
+key K
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key Y
+key E
+key S
+key P
+key X
+key H
+key A
+key M
+key C
+key L
+key A
+key M
+key A
+key U
+key P
+key L
+key A
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key I
+key T
+key H
+key U
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key E
+key S
+key S
+key S
+key S
+key S
+key C
+key C
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key M
+key A
+key N
+key I
+key L
+key L
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key C
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key G
+key E
+key T
+key T
+key H
+key E
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key N
+key A
+key M
+key E
+key S
+key A
+key N
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key E
+key X
+key P
+key L
+key A
+key N
+key A
+key T
+key I
+key O
+key N
+key S
+key 9
+key R
+key I
+key G
+key H
+key T
+key B
+key E
+key L
+key O
+key W
+key T
+key H
+key E
+key T
+key I
+key T
+key L
+key E
+key 0
+key F
+key O
+key R
+key A
+key L
+key L
+key T
+key H
+key E
+key S
+key E
+key 3
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key F
+key I
+key L
+key E
+key S
+key C
+key N
+key O
+key T
+key E
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key V
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key G
+key I
+key V
+key E
+key M
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 3
+key A
+key P
+key P
+key R
+key O
+key P
+key R
+key I
+key A
+key T
+key E
+key N
+key A
+key M
+key E
+key F
+key O
+key R
+key M
+key Y
+key C
+key L
+key A
+key S
+key S
+key I
+key N
+key T
+key H
+key E
+key S
+key E
+key S
+key S
+key A
+key N
+key D
+key E
+key X
+key P
+key L
+key A
+key N
+key A
+key T
+key I
+key O
+key N
+key I
+key O
+key N
+key I
+key W
+key I
+key L
+key L
+key L
+key E
+key A
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key F
+key O
+key R
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key M
+key A
+key N
+key I
+key L
+key A
+key I
+key T
+key W
+key I
+key L
+key L
+key B
+key E
+key C
+key O
+key M
+key P
+key O
+key S
+key E
+key D
+key O
+key F
+key U
+key S
+key I
+key N
+key G
+key L
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key T
+key O
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key M
+key A
+key K
+key E
+key T
+key H
+key I
+key N
+key G
+key S
+key M
+key O
+key V
+key E
+key I
+key N
+key T
+key E
+key R
+key A
+key C
+key T
+key S
+key E
+key N
+key S
+key E
+key T
+key H
+key E
+key R
+key E
+key A
+key L
+key W
+key P
+key H
+key Y
+key S
+key I
+key C
+key A
+key L
+key W
+key O
+key R
+key L
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key T
+key S
+key A
+key N
+key I
+key N
+key T
+key R
+key O
+key T
+key O
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+key I
+key G
+key U
+key E
+key S
+key S
+key B
+key U
+key T
+key I
+key A
+key M
+key N
+key O
+key T
+key S
+key U
+key R
+key E
+key A
+key L
+key L
+key T
+key H
+key E
+key T
+key H
+key I
+key N
+key G
+key S
+key E
+key W
+key E
+key E
+key V
+key E
+key W
+key O
+key R
+key K
+key E
+key D
+key O
+key N
+key E
+key A
+key R
+key L
+key I
+key E
+key R
+key A
+key R
+key E
+key P
+key A
+key R
+key T
+key O
+key F
+key W
+key H
+key A
+key T
+key I
+key W
+key A
+key N
+key T
+key T
+key H
+key E
+key M
+key T
+key O
+key D
+key O
+key H
+key E
+key R
+key E
+key A
+key R
+key E
+key T
+key H
+key E
+key P
+key A
+key S
+key T
+key F
+key E
+key W
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key A
+key M
+key E
+key A
+key N
+key D
+key C
+key A
+key P
+key T
+key I
+key O
+key N
+key V
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key G
+key I
+key V
+key E
+key M
+key E
+key 3
+key O
+key P
+key T
+key I
+key O
+key N
+key S
+key W
+key I
+key T
+key H
+key T
+key H
+key I
+key S
+key S
+key P
+key I
+key R
+key I
+key T
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key O
+key P
+key T
+key I
+key O
+key N
+key 3
+key S
+key S
+key P
+key I
+key R
+key I
+key T
+key M
+key O
+key S
+key T
+key A
+key T
+key T
+key E
+key N
+key D
+key E
+key E
+key S
+key D
+key O
+key N
+key O
+key T
+key H
+key A
+key V
+key E
+key E
+key X
+key P
+key E
+key R
+key I
+key E
+key N
+key C
+key E
+key W
+key I
+key T
+key H
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key N
+key S
+key T
+key E
+key A
+key D
+key O
+key F
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+key B
+key R
+key I
+key N
+key G
+key T
+key H
+key E
+key M
+key A
+key G
+key I
+key C
+key O
+key F
+key A
+key I
+key T
+key O
+key T
+key H
+key E
+key P
+key H
+key Y
+key S
+key I
+key C
+key A
+key L
+key W
+key O
+key R
+key L
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key E
+key A
+key R
+key N
+key H
+key O
+key W
+key T
+key O
+key U
+key S
+key E
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key T
+key O
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key T
+key O
+key G
+key E
+key T
+key T
+key H
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key A
+key E
+key X
+key P
+key L
+key A
+key N
+key A
+key T
+key I
+key O
+key N
+key H
+key A
+key N
+key D
+key S
+key O
+key N
+key O
+key N
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key C
+key T
+key I
+key V
+key I
+key T
+key I
+key E
+key S
+key B
+key U
+key I
+key L
+key D
+key P
+key R
+key O
+key J
+key E
+key C
+key T
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key A
+key C
+key T
+key I
+key V
+key I
+key T
+key Y
+key 8
+key 9
+key S
+key T
+key H
+key A
+key T
+key U
+key T
+key I
+key S
+key E
+key S
+key S
+key E
+key N
+key S
+key O
+key R
+key S
+key M
+key I
+key M
+key O
+key T
+key O
+key R
+key A
+key S
+key A
+key N
+key D
+key M
+key C
+key I
+key I
+key C
+key R
+key O
+key C
+key O
+key N
+key T
+key R
+key O
+key L
+key L
+key E
+key R
+key S
+key 0
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key H
+key E
+key R
+key E
+key S
+key S
+key W
+key H
+key A
+key T
+key I
+key W
+key A
+key N
+key N
+key A
+key S
+key A
+key Y
+key C
+key A
+key N
+key Y
+key O
+key U
+key G
+key I
+key V
+key E
+key M
+key E
+key A
+key S
+key E
+key V
+key E
+key R
+key A
+key L
+key O
+key P
+key T
+key I
+key O
+key N
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key I
+key L
+key I
+key K
+key E
+key V
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key E
+key B
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 8
+key P
+key L
+key E
+key A
+key S
+key E
+key E
+key D
+key I
+key T
+key T
+key H
+key I
+key S
+key P
+key H
+key O
+key T
+key O
+key A
+key N
+key D
+key C
+key R
+key C
+key R
+key E
+key A
+key T
+key E
+key T
+key H
+key E
+key N
+key E
+key W
+key P
+key O
+key T
+key E
+key R
+key S
+key T
+key E
+key R
+key F
+key O
+key R
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key 1
+key 0
+key W
+key I
+key T
+key H
+key T
+key H
+key E
+key A
+key B
+key O
+key V
+key E
+key D
+key E
+key I
+key T
+key A
+key L
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key T
+key A
+key I
+key L
+key S
+key T
+key I
+key T
+key L
+key E
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key V
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key O
+key H
+key P
+key L
+key E
+key A
+key S
+key E
+key H
+key C
+key H
+key A
+key N
+key G
+key E
+key T
+key H
+key E
+key D
+key A
+key T
+key E
+key T
+key O
+key C
+key A
+key L
+key E
+key N
+key D
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key 2
+key 1
+key S
+key T
+key N
+key O
+key O
+key F
+key N
+key O
+key O
+key F
+key N
+key O
+key V
+key E
+key M
+key E
+key B
+key E
+key R
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key I
+key S
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key 1
+key 1
+key P
+key L
+key E
+key A
+key S
+key E
+key C
+key H
+key A
+key N
+key G
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key N
+key U
+key M
+key B
+key E
+key R
+key T
+key O
+key 3
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key I
+key N
+key T
+key R
+key O
+key T
+key O
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+key C
+key C
+key C
+key M
+command !x
+key C
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key 1
+key 1
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key L
+key A
+key U
+key D
+key E
+key C
+key O
+key D
+key E
+key M
+key A
+key N
+key I
+key L
+key A
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key O
+key H
+key I
+key O
+key L
+key I
+key V
+key E
+key R
+key C
+key L
+key A
+key U
+key D
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key O
+key D
+key E
+key M
+key A
+key N
+key I
+key L
+key A
+key C
+key L
+key A
+key U
+key D
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key I
+key O
+key L
+key I
+key H
+key E
+key R
+key E
+key S
+key M
+key Y
+key P
+key R
+key O
+key P
+key O
+key S
+key E
+key D
+key E
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key O
+key N
+key I
+key N
+key T
+key R
+key O
+key O
+key T
+key O
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key E
+key T
+key M
+key E
+key K
+key P
+key L
+key E
+key A
+key S
+key E
+key L
+key E
+key T
+key M
+key E
+key K
+key N
+key O
+key W
+key I
+key F
+key S
+key C
+key H
+key E
+key D
+key U
+key L
+key E
+key A
+key N
+key D
+key T
+key O
+key P
+key I
+key C
+key W
+key O
+key R
+key K
+key S
+key F
+key O
+key R
+key O
+key U
+key Y
+key O
+key U
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key C
+key L
+key I
+key N
+key K
+key H
+key I
+key O
+key L
+key I
+key V
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key H
+key E
+key R
+key E
+key S
+key M
+key Y
+key P
+key R
+key O
+key P
+key O
+key S
+key E
+key D
+key S
+key E
+key S
+key S
+key I
+key O
+key N
+key O
+key N
+key I
+key N
+key T
+key R
+key O
+key T
+key O
+key R
+key O
+key B
+key O
+key T
+key I
+key C
+key S
+key T
+key H
+key E
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+key L
+key I
+key N
+key K
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...
+No micro:bit found. Put it in pairing mode: hold A+B, tap reset, wait for 'PAIRING MODE!'.
+Scanning for a micro:bit over Bluetooth...

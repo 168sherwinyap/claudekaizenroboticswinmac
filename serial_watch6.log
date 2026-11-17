@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\SureWin\dev\microbit\scripts\serial_watch.py", line 13, in <module>
+    data = s.read(256)
+           ^^^^^^^^^^^
+  File "C:\Users\SureWin\AppData\Local\Programs\Python\Python312\Lib\site-packages\serial\serialwin32.py", line 275, in read
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))

@@ -1,0 +1,8 @@
+micro:bit keyboard bridge on COM6
+  press k -> smile, j -> frown.  Ctrl+C to stop.
+
+sent k
+micro:bit: smile
+sent j
+micro:bit: frown
+Bridge stopped.

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flappy Bird — hand control (HC-SR04)</title>
+<style>
+  body {
+    margin: 0;
+    background: #123;
+    color: #eee;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  h1 { font-size: 20px; margin: 12px 0 4px; }
+  .bar { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; }
+  button { font-size: 16px; padding: 6px 14px; cursor: pointer; }
+  #status { font-size: 14px; color: #9cf; }
+  canvas { background: #7ec8f0; border: 2px solid #456; }
+  .hint { font-size: 12px; color: #889; max-width: 440px; text-align: center; margin-top: 8px; }
+</style>
+</head>
+<body>
+<h1>Flappy Bird — hand control</h1>
+<div class="bar">
+  <button id="connect">Connect board</button>
+  <span id="status">Not connected</span>
+</div>
+<canvas id="game" width="400" height="600"></canvas>
+<p class="hint">Chrome/Edge only. Click <b>Connect</b> and pick the micro:bit USB port.
+Raise your hand over the HC-SR04 to fly up, lower it to dive. Space / tap to start &amp;
+restart. <b>D</b> toggles the debug readout.</p>
+<script src="game.js"></script>
+</body>
+</html>
