@@ -39,7 +39,7 @@ makecode
 ```
 
 ```powershell
-cmd /c copy /b "C:\Users\SureWin\dev\robotics\sentinel\built\binary.hex" D:\MICROBIT.HEX
+cmd /c copy /b ".\built\binary.hex" D:\MICROBIT.HEX
 ```
 
 (the drive is DAPLink storage: the file vanishes and the board reboots when the flash

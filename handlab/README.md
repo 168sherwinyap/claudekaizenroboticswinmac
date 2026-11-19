@@ -30,7 +30,7 @@ makecode
 ```
 
 ```powershell
-cmd /c copy /b "C:\Users\SureWin\dev\robotics\handlab\built\binary.hex" D:\MICROBIT.HEX
+cmd /c copy /b ".\built\binary.hex" D:\MICROBIT.HEX
 ```
 
 Then double-click `run_handlab.cmd` and click **Connect board**. Chrome/Edge only.

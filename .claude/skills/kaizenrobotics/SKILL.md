@@ -5,9 +5,14 @@ description: Drive a BBC micro:bit v2 on a KittenBot RobotBit from this PC — d
 
 # micro:bit v2 + RobotBit: faces, servo, HC-SR04, USB serial, Bluetooth, Web Serial
 
-Project root: the folder this SKILL.md lives in — all paths below are relative to it.
+Project root: the repository root, the folder that holds `CLAUDE.md` (three levels above
+this SKILL.md) — all paths below are relative to it.
 Hardware: micro:bit v2.2 on a KittenBot RobotBit 2.2, 180° hobby servos on S1–S5 (S1–S8
 available), HC-SR04 on P1/P2, 18650 battery, USB to the micro:bit's own port.
+
+Per-program detail (architecture, every command, install and verify steps, expected
+readback values, tunables) is in `reference.md` next to this file. Read the section for
+the program you are working on before changing it.
 
 ## Pick the stack first — this decision costs hours if skipped
 
@@ -15,7 +20,7 @@ available), HC-SR04 on P1/P2, 18650 battery, USB to the micro:bit's own port.
 |---|---|---|---|
 | Keyboard → faces/servo over **USB** | MicroPython | `main.py` | `keyboard_bridge.ps1` |
 | Keyboard → faces/servo over **Bluetooth** | MakeCode (`pxt`) | `ble/main.ts` | `ble_keyboard_bridge.py` |
-| Distance sensor → game/app in the **browser** | MakeCode + Web Serial | `flappy/main.ts` | `web/` or `kaizen-pushup/` (Chrome/Edge) |
+| Distance sensor → game/app in the **browser** | MakeCode + Web Serial | `flappy/main.ts` | `flappy/web/` or `kaizen-pushup/` (Chrome/Edge) |
 | Distance sensor → **live radar + two servos** | MakeCode + Web Serial | `sentinel/main.ts` | `sentinel/web/` (Chrome/Edge) |
 | **All v2 sensors** → dashboard + **5-servo hand** | MakeCode + Web Serial | `handlab/main.ts` | `handlab/web/` (Chrome/Edge) |
 
@@ -202,8 +207,8 @@ P0 (buzzer), P16 (RGB LEDs), P19/P20 (I²C to the PCA9685).
   Same PCA9685 driver as `ble/main.ts` (0x40, prescale 121, S1 = channel 8) in
   `control.inBackground`. Build `cd flappy && makecode` → `flappy/built/binary.hex`, flash
   by copying to `D:`. `flappy/pxt.json` is `core` only (no `bluetooth`, no `radio`).
-- `web/index.html` + `web/game.js` — flappy-bird hand-control game. `run_flappy.cmd` serves
-  `web/` on `:8000`. Bird height mirrors the hand (raise = fly up); S1 flaps only while the
+- `flappy/web/index.html` + `flappy/web/game.js` — flappy-bird hand-control game. `run_flappy.cmd` serves
+  `flappy/web/` on `:8000`. Bird height mirrors the hand (raise = fly up); S1 flaps only while the
   bird moves up.
 - `kaizen-pushup/` — pushup counter app (reuses the `flappy` firmware). Sensor on the floor
   pointed at the chest: down < 2 in, up > 5 in (and < 1.5 m); a rep = down → up. Counts reps
@@ -314,9 +319,11 @@ independent of the Sentinel board.
 - `sentinel/web/`, `run_sentinel.cmd` — radar scope on `:8002`; `scripts/radar_probe.py` — serial protocol probe.
 - `handlab/main.ts`, `handlab/built/binary.hex` — 5-servo hand + sensor stream (Path E board program).
 - `handlab/web/`, `run_handlab.cmd` — dashboard on `:8003`; `scripts/handlab_probe.py` — telemetry/servo probe.
-- `web/index.html`, `web/game.js`, `run_flappy.cmd` — flappy hand-control game (Web Serial, `:8000`).
+- `flappy/web/index.html`, `flappy/web/game.js`, `run_flappy.cmd` — flappy hand-control game (Web Serial, `:8000`).
 - `kaizen-pushup/` — Kaizen pushup counter app (reuses `flappy` firmware) + `run_kaizen_pushup.cmd` (`:8001`).
 - `scripts/install_servo.ps1`, `verify_servo.ps1` — upload + readback.
-- `scripts/serial_watch.py`, `ble_scan_watch.py`, `ble_pair_then_grab.py`, `probe_ble.py` — diagnostics.
+- `scripts/serial_watch.py`, `ble_scan_watch.py`, `ble_pair_then_grab.py` — diagnostics.
+- `scripts/archive/` — bring-up leftovers (old probes, old installers); reference only, many hardcode COM6/COM7.
 - `firmware/micropython-microbit-v2.1.1.hex` — restore MicroPython (then re-run the installer).
-- `CLAUDE.md` — full project context; `BLE.md` — user-facing how-to-run.
+- `CLAUDE.md` — short project page (state check, program list, rules); `reference.md` in
+  this folder — full detail for every program; `BLE.md` — user-facing how-to-run.
