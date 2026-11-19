@@ -1,5 +1,10 @@
 # Kaizen Robotics: micro:bit and RobotBit with Claude Code
 
+[![MakeCode build](../../actions/workflows/makecode.yml/badge.svg)](../../actions/workflows/makecode.yml)
+![Board: micro:bit v2](https://img.shields.io/badge/board-micro%3Abit%20v2-00a4a6)
+![Firmware: MakeCode and MicroPython](https://img.shields.io/badge/firmware-MakeCode%20%7C%20MicroPython-6f42c1)
+![Web Serial: Chrome and Edge](https://img.shields.io/badge/Web%20Serial-Chrome%20%7C%20Edge-1a73e8)
+
 This repository holds working programs for a BBC micro:bit v2 on a KittenBot RobotBit
 board, with servo motors and an HC-SR04 distance sensor. It also holds the instructions
 about this hardware that Claude Code reads at the start of a session.
