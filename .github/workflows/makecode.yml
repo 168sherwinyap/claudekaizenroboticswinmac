@@ -1,0 +1,38 @@
+name: MakeCode build
+
+# Builds each MakeCode board program from a clean checkout, so a change that
+# stops one compiling is caught before anyone flashes it.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        program: [ble, flappy, sentinel, handlab]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build ${{ matrix.program }}
+        working-directory: ${{ matrix.program }}
+        run: npx --yes makecode
+
+      # built/binary.hex is committed so the board can be flashed without a
+      # build. Warn when it no longer matches main.ts. This is a warning and
+      # not a failure because a new MakeCode release can change the output
+      # without any change in this repository.
+      - name: Check the committed hex matches the source
+        run: |
+          if ! git diff --quiet -- "${{ matrix.program }}/built/binary.hex"; then
+            echo "::warning file=${{ matrix.program }}/built/binary.hex::Committed hex differs from a fresh build. Run 'makecode' in ${{ matrix.program }}/ and commit built/binary.hex."
+          fi
