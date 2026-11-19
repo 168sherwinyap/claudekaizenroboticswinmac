@@ -1,3 +1,14 @@
 # Python bytecode cache (no value in VCS)
 __pycache__/
 *.pyc
+
+# Captured output from probes and bridge tests
+*.log
+*.err
+
+# MakeCode build output: only the flashable hex is kept
+**/built/*
+!**/built/binary.hex
+
+# MakeCode package sources, downloaded again by the makecode CLI on build
+pxt_modules/

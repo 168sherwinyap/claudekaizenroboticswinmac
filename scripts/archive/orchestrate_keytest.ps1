@@ -1,4 +1,4 @@
-$root = "C:\Users\SureWin\dev\microbit"
+$root = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
 $log = Join-Path $root "bridge_test-$stamp.log"
 $err = Join-Path $root "bridge_test-$stamp.err"
@@ -13,7 +13,7 @@ $p = Start-Process powershell -PassThru -WindowStyle Hidden -ArgumentList @(
 ) -RedirectStandardOutput $log -RedirectStandardError $err
 
 Start-Sleep -Seconds 3
-& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $root 'scripts\send_test_keys.ps1')
+& powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $PSScriptRoot 'send_test_keys.ps1')
 [void]$p.WaitForExit(25000)
 Start-Sleep -Milliseconds 500
 

@@ -1,6 +1,6 @@
 @echo off
 title Flappy Bird - hand control (Web Serial)
-cd /d "%~dp0web"
+cd /d "%~dp0flappy\web"
 start "flappy-server" /min python -m http.server 8000
 timeout /t 2 /nobreak >nul
 start "" http://localhost:8000

@@ -4,9 +4,10 @@
 // lines and, when the bird is moving up, writes "f" back; on "f" the board
 // flaps the S1 wing once. Button A flaps locally for a self-test with no PC.
 //
-// HC-SR04: TRIG = P1, ECHO = P2. Power the module at 3.3 V so ECHO stays under
-// 3.3 V (micro:bit pins are not 5 V tolerant). If reads are flaky at 3.3 V,
-// power at 5 V and put a 2:1 divider (1k + 2k) on ECHO before P2.
+// HC-SR04: TRIG = P1, ECHO = P2. Power the module from the 5 V rail and put a
+// divider on ECHO before P2 (1k ECHO->P2, 2k P2->GND), because micro:bit pins
+// are not 5 V tolerant. 3.3 V power is electrically safe without the divider,
+// but many HC-SR04 clones read 0 or are flaky there.
 //
 // S1 is PCA9685 channel 8 on I2C address 0x40 (RobotBit, P19/P20), not a
 // micro:bit pin. The prescale resets when the RobotBit loses power, so the
