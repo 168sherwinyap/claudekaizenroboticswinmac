@@ -4,7 +4,11 @@ import time
 
 import serial
 
-PORT = sys.argv[1] if len(sys.argv) > 1 else "COM7"
+import microbit_util
+
+PORT = sys.argv[1] if len(sys.argv) > 1 else microbit_util.find_serial_port()
+if not PORT:
+    sys.exit("No micro:bit serial port found. Pass one, or plug the board in.")
 SECONDS = int(sys.argv[2]) if len(sys.argv) > 2 else 120
 
 s = serial.Serial(PORT, 115200, timeout=0.5)
