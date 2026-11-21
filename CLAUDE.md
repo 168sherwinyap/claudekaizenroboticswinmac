@@ -18,7 +18,8 @@ install and verify steps, protocols) is in `.claude/skills/kaizenrobotics/refere
 
 Do not assume which program is on the board that is plugged in. Find out before building
 on it: read the USB serial port at 115200 for a few seconds
-(`python scripts/serial_watch.py 5`) and match the output.
+(`python scripts/serial_watch.py 5`; on macOS and Linux
+`.venv/bin/python scripts/serial_watch.py 5`) and match the output.
 
 | Serial output | Program on the board |
 |---|---|
@@ -51,6 +52,12 @@ PC-side tooling is cross-platform: Python scripts (`pip install -r requirements.
 auto-detected by USB VID `0D28` / PID `0204` (`COMx` on Windows, `/dev/tty.usbmodem*` on
 macOS, `/dev/ttyACM*` on Linux); the micro:bit's filesystem mounts as a drive labelled
 `MICROBIT` (`/Volumes/MICROBIT` on macOS, `/media/<user>/MICROBIT` on Linux).
+
+**On macOS and Linux, run `./setup.sh` once before anything else.** It creates `.venv` and
+installs `requirements.txt` into it. Then run every script with `.venv/bin/python`, wherever
+these documents say `python`: a stock Mac has no `python` or `pip` command, and Homebrew's
+Python refuses a plain `pip install`. The `.sh` launchers use `.venv` by themselves and open
+the page in Chrome or Edge, because Safari and Firefox have no Web Serial.
 
 ## Rules that apply to every program
 

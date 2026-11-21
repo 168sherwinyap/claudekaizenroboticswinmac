@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Cross-platform launcher for the USB keyboard bridge (faces + S1 servo).
+# macOS/Linux launcher for keyboard_bridge.py.
 set -e
 cd "$(dirname "$0")"
-PY=python3; command -v python3 >/dev/null 2>&1 || PY=python
+. scripts/launch_common.sh
 exec "$PY" keyboard_bridge.py "$@"

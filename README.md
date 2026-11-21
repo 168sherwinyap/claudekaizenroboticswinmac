@@ -24,6 +24,10 @@ PC-side tooling is cross-platform: Python scripts (run `pip install -r requireme
 with a `.sh` launcher for macOS/Linux and a `.cmd` launcher for Windows. The serial port is
 auto-detected; the micro:bit mounts as a drive labelled `MICROBIT`.
 
+On macOS and Linux, run `./setup.sh` once after cloning instead of `pip install`. It
+creates a `.venv` folder with the Python packages in it. Run the scripts with
+`.venv/bin/python` where this page says `python`. The `.sh` launchers already do this.
+
 ## First run
 
 1. Clone this repository.

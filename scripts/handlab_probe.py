@@ -6,10 +6,10 @@ Close the browser first — Web Serial owns the serial port exclusively.
 Usage:
     python scripts/handlab_probe.py                  # auto-detect, 12 s
     python scripts/handlab_probe.py <port> 20
-    python scripts/handlab_probe.py <port> 20 --send "2:s1:150;4:s5:30;6:home"
+    python scripts/handlab_probe.py <port> 20 --send "1:i;2:s1:150;4:s5:30;6:home"
 
 Scheduled commands use "<seconds>:<command>" separated by ';'. Commands:
-    s<n>:<deg>   set servo n (1-5)   home
+    i            identify (PCA=OK|ERR)   s<n>:<deg>   set servo n (1-5)   home
 """
 
 import argparse
@@ -55,7 +55,7 @@ def main():
     ap = argparse.ArgumentParser(description="HandLab serial probe")
     ap.add_argument("port", nargs="?", help="serial port (default: auto-detect micro:bit)")
     ap.add_argument("seconds", nargs="?", type=float, default=12.0, help="duration (default 12)")
-    ap.add_argument("--send", default="1:home", help='scheduled commands, e.g. "2:s1:150;5:s5:30"')
+    ap.add_argument("--send", default="1:i;2:home", help='scheduled commands, e.g. "2:s1:150;5:s5:30"')
     ap.add_argument("--quiet", action="store_true", help="only print the summary")
     args = ap.parse_args()
 
